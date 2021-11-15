@@ -58,6 +58,7 @@
 
 .lists__cities{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-basis: 15;
@@ -66,6 +67,7 @@
 
 .lists__landmarks{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-basis: 15;
