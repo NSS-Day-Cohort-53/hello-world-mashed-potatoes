@@ -1,0 +1,37 @@
+@import "japan.css";
+@import "russia.css";
+@import "spain.css";
+
+.logo{
+    border: dotted;
+    height: 10em;
+    width: auto;
+}
+
+.nav {
+    margin-top: 1em;
+    height: 3em;
+    border: dotted;
+    padding-left: 1em;
+    display: flex;
+    background-color: salmon;
+}
+
+.nav__city{
+    border: dotted;
+    margin-left: 2em;
+    background-color:rgb(74, 189, 145);
+    padding: 8px;
+}
+
+.nav__city1{
+    border: dotted;
+    margin-left: 2em;
+    background-color:rgb(74, 189, 145);
+    padding: 8px;
+    text-decoration: overline;
+}
+
+.lists__header{
+    border: dotted;
+}
