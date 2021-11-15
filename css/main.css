@@ -2,35 +2,6 @@
 @import "russia.css";
 @import "spain.css";
 
-.logo{
-    border: dotted;
-    height: 10em;
-    width: auto;
-}
-
-.nav {
-    margin-top: 1em;
-    height: 3em;
-    border: dotted;
-    padding-left: 1em;
-    display: flex;
-    background-color: salmon;
-}
-
-.nav__city{
-    margin-left: 2em;
-    background-color:rgb(74, 189, 145);
-    padding: 8px;
-}
-
-.nav__city1{
-    border: dotted;
-    margin-left: 2em;
-    background-color:rgb(74, 189, 145);
-    padding: 8px;
-    text-decoration: overline;
-}
-
 header{
     background-color: teal;
     padding: 2px;
@@ -63,6 +34,9 @@ header{
 }
 
 .nav__city{
+    flex-basis: 15;
+    text-align: center;
+    border: dotted;
     border: solid;
     border-radius: 4px;
     margin-top: 2px;
@@ -71,11 +45,14 @@ header{
     background-color:rgba(255, 255, 255, 0.685);
     padding: 10px;
     border-width: 2px;
-    border-color: rgba(70, 48, 15, 0.589);
+    border-color: rgba(99, 61, 4, 0.589);
     opacity: 0.5;
 }
 
 .nav__city1{
+    flex-basis: 15;
+    text-align: center;
+    border: dotted;
     border: solid;
     border-radius: 4px;
     margin-top: 2px;
