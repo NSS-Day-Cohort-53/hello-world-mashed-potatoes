@@ -48,7 +48,8 @@ body {
 .country__img {
     height: 20em;
     display: block;
-    margin: auto;
+    margin: 2em auto;
+
 }
 
 .lists__header {
