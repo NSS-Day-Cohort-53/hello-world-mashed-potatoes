@@ -2,6 +2,35 @@
 @import "russia.css";
 @import "spain.css";
 
+.logo{
+    border: dotted;
+    height: 10em;
+    width: auto;
+}
+
+.nav {
+    margin-top: 1em;
+    height: 3em;
+    border: dotted;
+    padding-left: 1em;
+    display: flex;
+    background-color: salmon;
+}
+
+.nav__city{
+    margin-left: 2em;
+    background-color:rgb(74, 189, 145);
+    padding: 8px;
+}
+
+.nav__city1{
+    border: dotted;
+    margin-left: 2em;
+    background-color:rgb(74, 189, 145);
+    padding: 8px;
+    text-decoration: overline;
+}
+
 header{
     background-color: teal;
     padding: 2px;
@@ -81,7 +110,7 @@ body {
 
 .lists__header {
     font-size: 1.5em;
-    text-align: center;
+    text-align: left;
 }
 
 .copyright {
@@ -89,6 +118,13 @@ body {
 }
 
 .lists {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    flex-basis: 15;
+    align-items: start;
+    text-align: left;
     padding: 0.5em;
     margin: 0.5em;
 }

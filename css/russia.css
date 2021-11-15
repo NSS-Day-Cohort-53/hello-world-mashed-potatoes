@@ -3,6 +3,47 @@
     color: white;
 }
 
+.nav__city{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 15;
+    text-align: center;
+    border: dotted;
+    border: solid;
+    border-radius: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2em;
+    background-color:rgba(255, 255, 255, 0.685);
+    padding: 10px;
+    border-width: 2px;
+    border-color: rgba(99, 61, 4, 0.589);
+    opacity: 0.5;
+}
+
+.nav__city1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 15;
+    text-align: center;
+    border: dotted;
+    border: solid;
+    border-radius: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2em;
+    background-color:rgba(255, 255, 255, 0.685);
+    padding: 10px;
+    border-width: 2px;
+    border-color: rgba(50, 49, 51, 0.733);
+    text-decoration: overline;
+}
+
+.lists__header{
+    border: dotted;
+}
 .russia .lists a {
     color: yellow;
 }
