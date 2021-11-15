@@ -132,4 +132,5 @@ body {
 .lists__cities, .lists__landmarks, .lists__citizens {
     padding: 0.5em;
     margin: 1em;
+    flex: 2;
 }
