@@ -38,6 +38,30 @@
     text-decoration: overline;
 }
 
+.lists__cities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 15;
+    text-align: center;
+}
+
+.lists__landmarks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 15;
+    text-align: center;
+}
+
+.lists__citizens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 15;
+    text-align: center;
+}
+
 .lists__header{
     border: dotted;
 }
