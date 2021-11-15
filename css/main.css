@@ -113,17 +113,17 @@ body {
 }
 
 .lists {
-    padding: 0.5em;
-    margin: 0.5em;
-}
-
-.lists__cities, .lists__landmarks, .lists__citizens {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-basis: 15;
     text-align: left;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.lists__cities, .lists__landmarks, .lists__citizens {
     padding: 0.5em;
     margin: 1em;
 }
