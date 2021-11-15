@@ -18,52 +18,17 @@
 }
 
 .nav__city{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-basis: 15;
-    text-align: center;
-    border: dotted;
     margin-left: 2em;
     background-color:rgb(74, 189, 145);
     padding: 8px;
 }
 
 .nav__city1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-basis: 15;
-    text-align: center;
     border: dotted;
     margin-left: 2em;
     background-color:rgb(74, 189, 145);
     padding: 8px;
     text-decoration: overline;
-}
-
-.lists__cities{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-basis: 15;
-    text-align: center;
-}
-
-.lists__landmarks{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-basis: 15;
-    text-align: center;
-}
-
-.lists__citizens{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-basis: 15;
-    text-align: center;
 }
 
 header{
@@ -120,4 +85,45 @@ header{
 
 .lists__header{
     border: dotted;
+}
+
+body {
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+.country__header {
+    font-size: 3em;
+    text-align: center;
+}
+
+.country__img {
+    height: 20em;
+    display: block;
+    margin: 2em auto;
+
+}
+
+.lists__header {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 0.8em;
+}
+
+.lists {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.lists__cities, .lists__landmarks, .lists__citizens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 15;
+    text-align: left;
+    padding: 0.5em;
+    margin: 1em;
 }

@@ -1,27 +1,6 @@
-header{
-    background-color: teal;
-}
-
-.logo{
-    margin-top: 3px;
-    margin-left: 3px;
-    border: solid;
-    height: 10em;
-    width: auto;
-    border-radius: 3px;
-}
-
-.nav {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    height: 3em;
-    border: solid;
-    border-color: rgb(41, 46, 46);
-    border-radius: 4px;
-    border-width: 3px;
-    display: flex;
-    background-color: rgba(0, 238, 255, 0.404);
-    flex: 2;
+.spain .lists__cities, .spain .lists__landmarks, .spain .lists__citizens {
+    background-color: #8A3033;
+    color: white;
 }
 
 .nav__city{
@@ -64,6 +43,7 @@ header{
 
 .lists__cities{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-basis: 15;
@@ -72,6 +52,7 @@ header{
 
 .lists__landmarks{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-basis: 15;
@@ -80,6 +61,7 @@ header{
 
 .lists__citizens{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-basis: 15;
@@ -89,3 +71,10 @@ header{
 .lists__header{
     border: dotted;
 }
+.spain .lists a {
+    color: yellow;
+}
+header{
+    background-color: teal;
+}
+

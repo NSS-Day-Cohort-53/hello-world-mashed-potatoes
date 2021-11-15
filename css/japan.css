@@ -1,15 +1,9 @@
-header{
-    background-color: teal;
+.japan .lists__cities, .japan .lists__landmarks, .japan .lists__citizens {
+    background-color: darkred;
+    color: white;
 }
-.logo{
-    margin-top: 3px;
-    margin-left: 3px;
-    border: solid;
-    height: 10em;
-    width: 10em;
-    border-radius: 3px;
 
-}
+
 
 .nav {
     margin-top: 5px;
@@ -80,6 +74,7 @@ header{
 
 .lists__citizens{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-basis: 15;
@@ -88,4 +83,6 @@ header{
 
 .lists__header{
     border: dotted;
+.japan .lists a {
+    color: yellow;
 }
