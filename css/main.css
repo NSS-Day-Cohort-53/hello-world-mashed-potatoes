@@ -1,3 +1,7 @@
+@import "japan.css";
+@import "russia.css";
+@import "spain.css";
+
 .logo{
     border: dotted;
     height: 10em;

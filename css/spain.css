@@ -14,6 +14,11 @@
 }
 
 .nav__city{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 15;
+    text-align: center;
     border: dotted;
     margin-left: 2em;
     background-color:rgb(74, 189, 145);
@@ -21,6 +26,11 @@
 }
 
 .nav__city1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 15;
+    text-align: center;
     border: dotted;
     margin-left: 2em;
     background-color:rgb(74, 189, 145);
