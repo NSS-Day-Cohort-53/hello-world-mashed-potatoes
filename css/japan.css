@@ -57,30 +57,21 @@
 }
 
 .lists__cities{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     flex-basis: 15;
-    text-align: center;
+    text-align: left;
 }
 
 .lists__landmarks{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     flex-basis: 15;
-    text-align: center;
+    text-align: left;
 }
 
 .lists__citizens{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     flex-basis: 15;
-    text-align: center;
+    text-align: left;
 }
 
 .lists__header{
