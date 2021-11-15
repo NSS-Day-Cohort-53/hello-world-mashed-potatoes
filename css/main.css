@@ -53,10 +53,10 @@ header{
     border-color: rgba(50, 49, 51, 0.733);
     text-decoration: overline;
 }
-/* 
+
 .lists__header{
     border: dotted;
-} */
+}
 
 body {
     font-family: 'Roboto', 'Open Sans', sans-serif;
