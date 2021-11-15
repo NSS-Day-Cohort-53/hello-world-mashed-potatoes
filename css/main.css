@@ -57,3 +57,8 @@ header{
 .lists__header{
     border: dotted;
 }
+
+.country__img{
+    height: 40em;
+    width: 100%;
+}
