@@ -56,24 +56,6 @@
     text-decoration: overline;
 }
 
-.lists__cities{
-    justify-content: space-evenly;
-    flex-basis: 15;
-    text-align: left;
-}
-
-.lists__landmarks{
-    justify-content: space-evenly;
-    flex-basis: 15;
-    text-align: left;
-}
-
-.lists__citizens{
-    justify-content: space-evenly;
-    flex-basis: 15;
-    text-align: left;
-}
-
 .lists__header{
     border: dotted;
 .japan .lists a {
