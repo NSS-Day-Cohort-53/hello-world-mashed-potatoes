@@ -1,0 +1,8 @@
+.russia .lists__cities, .russia .lists__landmarks, .russia .lists__citizens {
+    background-color: #8A3033;
+    color: white;
+}
+
+.russia .lists a {
+    color: yellow;
+}

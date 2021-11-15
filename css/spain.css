@@ -1,0 +1,8 @@
+.spain .lists__cities, .spain .lists__landmarks, .spain .lists__citizens {
+    background-color: #8A3033;
+    color: white;
+}
+
+.spain .lists a {
+    color: yellow;
+}

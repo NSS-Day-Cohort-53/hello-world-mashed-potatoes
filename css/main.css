@@ -31,10 +31,10 @@
     padding: 8px;
     text-decoration: overline;
 }
-
+/* 
 .lists__header{
     border: dotted;
-}
+} */
 
 body {
     font-family: 'Roboto', 'Open Sans', sans-serif;
@@ -42,16 +42,30 @@ body {
 
 .country__header {
     font-size: 3em;
+    text-align: center;
 }
 
 .country__img {
     height: 20em;
+    display: block;
+    margin: auto;
 }
 
 .lists__header {
     font-size: 1.5em;
+    text-align: center;
 }
 
 .copyright {
     font-size: 0.8em;
+}
+
+.lists {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.lists__cities, .lists__landmarks, .lists__citizens {
+    padding: 0.5em;
+    margin: 1em;
 }
