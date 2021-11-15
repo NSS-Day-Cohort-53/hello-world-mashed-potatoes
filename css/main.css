@@ -105,7 +105,7 @@ body {
 
 .lists__header {
     font-size: 1.5em;
-    text-align: center;
+    text-align: left;
 }
 
 .copyright {
@@ -118,6 +118,7 @@ body {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     flex-basis: 15;
+    align-items: start;
     text-align: left;
     padding: 0.5em;
     margin: 0.5em;
